@@ -6,7 +6,7 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 <script>
     tailwind.config = {
@@ -101,20 +101,41 @@
 <section class="mb-16 sm:mb-24 scroll-mt-20" id="dersler">
 <h2 class="text-3xl sm:text-4xl font-bold leading-tight tracking-[-0.015em] mb-8 text-center">Derslerimiz</h2>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<div class="flex flex-col items-center text-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark">
-<div class="flex items-center justify-center size-16 mb-4 rounded-full bg-primary/20 text-primary"><span class="material-symbols-outlined !text-4xl">fitness_center</span></div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden border border-border-light dark:border-border-dark flex flex-col">
+<img class="w-full h-56 object-cover" data-alt="Reformer pilates yapan bir kadın" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPhNSydSMkpWOm3sD_0ujOFAi2A-yxxU42EQ3AusjmE7GzN5UpwJJxt8XDDm8rFJBptYUs_HmY17Z4eD6df1YeGYo4khoF0g0rCRxHr8B9medqKI8BH2eatvH9yiupTiTISj61jEOpijpBPFAIX7NTw3ovAY8jwSSBp_xG090t332ld_hvs5JzQcB_1vfP2k3sYYWk4WtlicX0oqRqwe47M9V1xhxzSnxvSHAdIRrjnOIi9uENgTATH5NRU25AVDz77hU7Mlg4ZJA"/>
+<div class="p-6 flex-grow flex flex-col">
 <h3 class="text-xl font-bold mb-2">Reformer Pilates</h3>
-<p class="text-sm leading-relaxed">Aletli pilates olarak da bilinen Reformer, tüm vücudu çalıştırarak güç, esneklik ve dengeyi artırır.</p>
+<p class="text-sm leading-relaxed mb-4 flex-grow">Aletli pilates olarak da bilinen Reformer, yaylı bir direnç sistemiyle tüm vücudu çalıştırarak güç, esneklik ve dengeyi artırır.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Tüm vücut güçlenmesi</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Esneklik ve Denge</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Duruş (Postür) Düzeltme</span></li>
+</ul>
 </div>
-<div class="flex flex-col items-center text-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark">
-<div class="flex items-center justify-center size-16 mb-4 rounded-full bg-primary/20 text-primary"><span class="material-symbols-outlined !text-4xl">self_improvement</span></div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden border border-border-light dark:border-border-dark flex flex-col">
+<img class="w-full h-56 object-cover" data-alt="Mat üzerinde pilates yapan bir grup insan" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmqAjlQ-83oSplba0jdUailFx7lsuyExb2loi64KcB7iU4fTFqui5Lcae7CnjgpU-CsmZPu5Vj-ioDrFH0k5fnsdpZ5lCIldLH-8gQZc0UMzDf6ruKiHnLsewlMQE3YBlJNK8qrz5N7bBg9K_ZwYrxBgLsyuRCSdMqHBdpKOaYDSiWMrnFijWTfbRXFKk7F9NoaNlGyvraOnyLQavPh74HGLD0zxFHBsmgdl5OQA-9K53wg215u5BKN-ku37x-yDmVrB9ph1NTrhs"/>
+<div class="p-6 flex-grow flex flex-col">
 <h3 class="text-xl font-bold mb-2">Mat Pilates</h3>
-<p class="text-sm leading-relaxed">Vücut ağırlığı kullanılarak yapılan, merkez (core) bölgesini güçlendirmeye odaklanan temel pilates dersleri.</p>
+<p class="text-sm leading-relaxed mb-4 flex-grow">Vücut ağırlığı kullanılarak yapılan, merkez (core) bölgesini güçlendirmeye ve beden farkındalığını artırmaya odaklanan temel pilates dersleri.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Merkez (Core) Gücü</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Beden Farkındalığı</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Kontrol ve Stabilite</span></li>
+</ul>
 </div>
-<div class="flex flex-col items-center text-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark">
-<div class="flex items-center justify-center size-16 mb-4 rounded-full bg-primary/20 text-primary"><span class="material-symbols-outlined !text-4xl">pregnant_woman</span></div>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl overflow-hidden border border-border-light dark:border-border-dark flex flex-col">
+<img class="w-full h-56 object-cover" data-alt="Hamile bir kadına pilates egzersizi yaptıran eğitmen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmcp42tuUlPd6uuL4xie6j_2yrj_T9LEc_1FgJbPDc5LtV0X_hNfWy9p8238ggFlzhCT4R03Ata8OvzZ4VTby_RqemQ_z7JF8LSUukQVufgiYGG4xPmVOtMhbNQOyUJtcy2W_T96-W2JPgWK-w2C9AMRkPN_gn1cJ1NSDUHumvpxjpPDCW6oznlC93Cn3VKE2_86v55sP-BpOq2uqDfqo-2G77FZn8H-KZHYzpM4OKBEtpBH9gCXrKWFMNyApFieRw-8OtD4hwfHo"/>
+<div class="p-6 flex-grow flex flex-col">
 <h3 class="text-xl font-bold mb-2">Hamile Pilatesi</h3>
-<p class="text-sm leading-relaxed">Anne adayları için özel olarak tasarlanmış, doğuma hazırlık ve doğum sonrası toparlanmayı destekleyen dersler.</p>
+<p class="text-sm leading-relaxed mb-4 flex-grow">Anne adayları için özel olarak tasarlanmış, hamilelik sürecini konforlu geçirmeye, doğuma hazırlığa ve doğum sonrası toparlanmaya destek olan güvenli dersler.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Doğuma Hazırlık</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Ağrıları Azaltma</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">check_circle</span><span>Doğum Sonrası Toparlanma</span></li>
+</ul>
+</div>
 </div>
 </div>
 </section>
@@ -125,7 +146,7 @@
 <img class="w-full h-64 object-cover" data-alt="Eğitmen Aylin Yılmaz'ın portre fotoğrafı" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJkX0mcaS0qgg5rgNtHnXEriFqOjfabqx5YHdVxtA2YHsqqlMAEhupCPX0uKFcnkfvFY534CFPiTBT-UzVeAmX2nVpqHetPJUrI_9LaJijHe5PWfX3Axa9cw-YotvWrStZ1KaOMcvZ7X0Ub4bheY4OqnCbvBr3ty8A8iXf9vkenoB1RUgknD9NIco4F6e80Ic33Hex22nEZVR0yaph5nZiEsEn4vi-bCTj4iyp8oNZCGX98XJyU48ETmJk9fsdnLY-D1J2oFnLBa0"/>
 <div class="p-6">
 <h3 class="text-xl font-bold">Aylin Yılmaz</h3>
-<p class="text-primary text-sm font-medium mb-2">Reformer & Mat Uzmanı</p>
+<p class="text-primary text-sm font-medium mb-2">Reformer &amp; Mat Uzmanı</p>
 <p class="text-sm leading-relaxed">"Hareketin iyileştirici gücüne inanıyorum. Her derste öğrencilerimin sınırlarını güvenle zorlamalarına yardımcı oluyorum."</p>
 </div>
 </div>
@@ -272,5 +293,4 @@
 </div>
 </footer>
 </div>
-
 </body></html>
